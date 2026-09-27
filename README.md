@@ -7,4 +7,6 @@ e ogni tanto il telefono squilla da solo.
 
 **Gioca nel browser:** https://valico-di-grest.github.io/border-pass-int/
 
-Prototipo: il primo giorno, 6 livelli, da soli o in cooperativa online (2–3 giocatori).
+Prototipo: il primo giorno, 6 livelli, da soli o in cooperativa online (2–3 giocatori). In italiano e in inglese.
+
+*A co-op investigation game at a 2003 border post, with AI characters you question, check and stamp. Play in Italian or English.*
