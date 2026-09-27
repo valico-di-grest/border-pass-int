@@ -7,4 +7,4 @@ e ogni tanto il telefono squilla da solo.
 
 **Gioca nel browser:** https://valico-di-grest.github.io/border-pass-int/
 
-Prototipo: i primi 5 livelli, da soli o in cooperativa online (2–3 giocatori).
+Prototipo: il primo giorno, 6 livelli, da soli o in cooperativa online (2–3 giocatori).
