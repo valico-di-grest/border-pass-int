@@ -7,7 +7,7 @@ e ogni tanto il telefono squilla da solo.
 
 **Gioca nel browser:** https://valico-di-grest.github.io/border-pass-int/
 
-**Versione ufficio** (un ufficio in 3D dove si cammina tra le postazioni): https://valico-di-grest.github.io/border-pass-int/ufficio/ — mobili e personaggi 3D: [Kenney](https://kenney.nl) (CC0)
+**Versione ufficio** (un ufficio in pixel art dove si cammina tra le postazioni): https://valico-di-grest.github.io/border-pass-int/ufficio/
 
 Prototipo: il primo giorno, 6 livelli, da soli o in cooperativa online (2–3 giocatori). In italiano e in inglese.
 
