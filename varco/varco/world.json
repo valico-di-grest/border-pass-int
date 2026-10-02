@@ -96,107 +96,313 @@
  "sprites": {
   "officerM-front": [
    24,
-   56
+   56,
+   12
   ],
   "officerM-back": [
    23,
-   56
+   56,
+   11
   ],
   "officerM-side": [
-   23,
-   56
+   26,
+   56,
+   13
   ],
-  "officerM-step": [
-   24,
-   56
+  "officerM-frontA": [
+   26,
+   56,
+   12
+  ],
+  "officerM-frontB": [
+   26,
+   56,
+   12
+  ],
+  "officerM-backA": [
+   26,
+   56,
+   13
+  ],
+  "officerM-backB": [
+   26,
+   56,
+   12
+  ],
+  "officerM-sideA": [
+   27,
+   56,
+   13
+  ],
+  "officerM-sidePass": [
+   26,
+   56,
+   13
+  ],
+  "officerM-sideB": [
+   25,
+   56,
+   13
   ],
   "officerF-front": [
    24,
-   55
+   55,
+   11
   ],
   "officerF-back": [
    23,
-   55
+   55,
+   11
   ],
   "officerF-side": [
-   23,
-   55
+   25,
+   55,
+   13
   ],
-  "officerF-step": [
-   23,
-   55
+  "officerF-frontA": [
+   24,
+   55,
+   11
+  ],
+  "officerF-frontB": [
+   24,
+   55,
+   12
+  ],
+  "officerF-backA": [
+   25,
+   55,
+   12
+  ],
+  "officerF-backB": [
+   25,
+   55,
+   12
+  ],
+  "officerF-sideA": [
+   25,
+   55,
+   12
+  ],
+  "officerF-sidePass": [
+   25,
+   55,
+   13
+  ],
+  "officerF-sideB": [
+   25,
+   55,
+   12
   ],
   "filip-front": [
    26,
-   54
+   54,
+   13
   ],
   "filip-back": [
    26,
-   54
+   54,
+   12
   ],
   "filip-side": [
    24,
-   54
+   54,
+   12
   ],
-  "filip-step": [
-   25,
-   54
+  "filip-frontA": [
+   27,
+   54,
+   13
+  ],
+  "filip-frontB": [
+   27,
+   54,
+   13
+  ],
+  "filip-backA": [
+   27,
+   54,
+   13
+  ],
+  "filip-backB": [
+   27,
+   54,
+   13
+  ],
+  "filip-sideA": [
+   26,
+   54,
+   13
+  ],
+  "filip-sidePass": [
+   24,
+   54,
+   12
+  ],
+  "filip-sideB": [
+   26,
+   54,
+   12
   ],
   "red-front": [
    26,
-   52
+   52,
+   13
   ],
   "red-back": [
    26,
-   52
+   52,
+   12
   ],
   "red-side": [
    23,
-   52
+   52,
+   11
   ],
-  "red-step": [
-   23,
-   52
+  "red-frontA": [
+   28,
+   52,
+   14
+  ],
+  "red-frontB": [
+   28,
+   52,
+   13
+  ],
+  "red-backA": [
+   28,
+   52,
+   14
+  ],
+  "red-backB": [
+   30,
+   52,
+   14
+  ],
+  "red-sideA": [
+   25,
+   52,
+   11
+  ],
+  "red-sidePass": [
+   25,
+   52,
+   12
+  ],
+  "red-sideB": [
+   25,
+   52,
+   11
   ],
   "oldman-front": [
    28,
-   52
+   52,
+   13
   ],
   "oldman-back": [
    28,
-   52
+   52,
+   14
   ],
   "oldman-side": [
    23,
-   52
+   52,
+   11
   ],
-  "oldman-step": [
+  "oldman-frontA": [
+   30,
+   52,
+   15
+  ],
+  "oldman-frontB": [
+   30,
+   52,
+   15
+  ],
+  "oldman-backA": [
+   29,
+   52,
+   14
+  ],
+  "oldman-backB": [
+   29,
+   52,
+   14
+  ],
+  "oldman-sideA": [
+   26,
+   52,
+   12
+  ],
+  "oldman-sidePass": [
    23,
-   52
+   52,
+   11
+  ],
+  "oldman-sideB": [
+   27,
+   52,
+   13
   ],
   "blonde-front": [
    22,
-   50
+   50,
+   10
   ],
   "blonde-back": [
    24,
-   50
+   50,
+   12
   ],
   "blonde-side": [
    27,
-   50
+   50,
+   13
   ],
-  "blonde-step": [
+  "blonde-frontA": [
+   27,
+   50,
+   14
+  ],
+  "blonde-frontB": [
+   27,
+   50,
+   12
+  ],
+  "blonde-backA": [
+   24,
+   50,
+   12
+  ],
+  "blonde-backB": [
+   24,
+   50,
+   12
+  ],
+  "blonde-sideA": [
    28,
-   50
+   50,
+   13
+  ],
+  "blonde-sidePass": [
+   27,
+   50,
+   13
+  ],
+  "blonde-sideB": [
+   29,
+   50,
+   14
   ],
   "bagClosed": [
    44,
-   35
+   35,
+   22
   ],
   "bagOpen": [
    44,
-   55
+   55,
+   22
   ]
  }
 }
