@@ -394,6 +394,256 @@
    50,
    14
   ],
+  "clara-front": [
+   31,
+   52,
+   15
+  ],
+  "clara-back": [
+   29,
+   52,
+   14
+  ],
+  "clara-side": [
+   29,
+   52,
+   14
+  ],
+  "clara-frontA": [
+   32,
+   52,
+   16
+  ],
+  "clara-frontB": [
+   32,
+   52,
+   16
+  ],
+  "clara-backA": [
+   31,
+   52,
+   15
+  ],
+  "clara-backB": [
+   31,
+   52,
+   15
+  ],
+  "clara-sideA": [
+   31,
+   52,
+   15
+  ],
+  "clara-sidePass": [
+   30,
+   52,
+   14
+  ],
+  "clara-sideB": [
+   31,
+   52,
+   15
+  ],
+  "teo-front": [
+   28,
+   52,
+   14
+  ],
+  "teo-back": [
+   28,
+   52,
+   14
+  ],
+  "teo-side": [
+   28,
+   52,
+   14
+  ],
+  "teo-frontA": [
+   34,
+   52,
+   18
+  ],
+  "teo-frontB": [
+   34,
+   52,
+   15
+  ],
+  "teo-backA": [
+   35,
+   52,
+   18
+  ],
+  "teo-backB": [
+   43,
+   52,
+   27
+  ],
+  "teo-sideA": [
+   31,
+   52,
+   15
+  ],
+  "teo-sidePass": [
+   31,
+   52,
+   15
+  ],
+  "teo-sideB": [
+   32,
+   52,
+   16
+  ],
+  "freja-front": [
+   23,
+   50,
+   11
+  ],
+  "freja-back": [
+   24,
+   50,
+   12
+  ],
+  "freja-side": [
+   27,
+   50,
+   13
+  ],
+  "freja-frontA": [
+   24,
+   50,
+   11
+  ],
+  "freja-frontB": [
+   24,
+   50,
+   12
+  ],
+  "freja-backA": [
+   24,
+   50,
+   11
+  ],
+  "freja-backB": [
+   25,
+   50,
+   12
+  ],
+  "freja-sideA": [
+   29,
+   50,
+   13
+  ],
+  "freja-sidePass": [
+   28,
+   50,
+   13
+  ],
+  "freja-sideB": [
+   29,
+   50,
+   13
+  ],
+  "luca-front": [
+   22,
+   54,
+   11
+  ],
+  "luca-back": [
+   22,
+   54,
+   10
+  ],
+  "luca-side": [
+   18,
+   54,
+   9
+  ],
+  "luca-frontA": [
+   25,
+   54,
+   12
+  ],
+  "luca-frontB": [
+   25,
+   54,
+   12
+  ],
+  "luca-backA": [
+   24,
+   54,
+   12
+  ],
+  "luca-backB": [
+   24,
+   54,
+   11
+  ],
+  "luca-sideA": [
+   23,
+   54,
+   11
+  ],
+  "luca-sidePass": [
+   20,
+   54,
+   10
+  ],
+  "luca-sideB": [
+   24,
+   54,
+   12
+  ],
+  "nils-front": [
+   23,
+   54,
+   11
+  ],
+  "nils-back": [
+   22,
+   54,
+   10
+  ],
+  "nils-side": [
+   21,
+   54,
+   10
+  ],
+  "nils-frontA": [
+   24,
+   54,
+   11
+  ],
+  "nils-frontB": [
+   25,
+   54,
+   12
+  ],
+  "nils-backA": [
+   24,
+   54,
+   11
+  ],
+  "nils-backB": [
+   24,
+   54,
+   11
+  ],
+  "nils-sideA": [
+   22,
+   54,
+   10
+  ],
+  "nils-sidePass": [
+   23,
+   54,
+   11
+  ],
+  "nils-sideB": [
+   23,
+   54,
+   11
+  ],
   "bagClosed": [
    44,
    35,
