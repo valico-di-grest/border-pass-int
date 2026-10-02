@@ -1,0 +1,202 @@
+{
+ "room": [
+  688,
+  384
+ ],
+ "occ": [
+  {
+   "id": "booth",
+   "x": 126,
+   "y": 157,
+   "w": 97,
+   "h": 89,
+   "base": 442
+  },
+  {
+   "id": "posts",
+   "x": 234,
+   "y": 126,
+   "w": 107,
+   "h": 35,
+   "base": 312
+  },
+  {
+   "id": "archTop",
+   "x": 389,
+   "y": 37,
+   "w": 52,
+   "h": 18,
+   "base": 252
+  },
+  {
+   "id": "archL",
+   "x": 389,
+   "y": 54,
+   "w": 7,
+   "h": 73,
+   "base": 252
+  },
+  {
+   "id": "archR",
+   "x": 434,
+   "y": 54,
+   "w": 7,
+   "h": 73,
+   "base": 252
+  },
+  {
+   "id": "chairBooth",
+   "x": 158,
+   "y": 214,
+   "w": 32,
+   "h": 52,
+   "base": 532
+  },
+  {
+   "id": "chairPc",
+   "x": 481,
+   "y": 105,
+   "w": 32,
+   "h": 50,
+   "base": 300
+  },
+  {
+   "id": "chairPhone",
+   "x": 553,
+   "y": 105,
+   "w": 32,
+   "h": 50,
+   "base": 300
+  },
+  {
+   "id": "plantHall",
+   "x": 7,
+   "y": 298,
+   "w": 38,
+   "h": 78,
+   "base": 748
+  },
+  {
+   "id": "plantSofa",
+   "x": 586,
+   "y": 235,
+   "w": 38,
+   "h": 66,
+   "base": 598
+  },
+  {
+   "id": "plantOffice",
+   "x": 644,
+   "y": 298,
+   "w": 38,
+   "h": 78,
+   "base": 748
+  }
+ ],
+ "sprites": {
+  "officerM-front": [
+   24,
+   56
+  ],
+  "officerM-back": [
+   23,
+   56
+  ],
+  "officerM-side": [
+   23,
+   56
+  ],
+  "officerM-step": [
+   24,
+   56
+  ],
+  "officerF-front": [
+   24,
+   55
+  ],
+  "officerF-back": [
+   23,
+   55
+  ],
+  "officerF-side": [
+   23,
+   55
+  ],
+  "officerF-step": [
+   23,
+   55
+  ],
+  "filip-front": [
+   26,
+   54
+  ],
+  "filip-back": [
+   26,
+   54
+  ],
+  "filip-side": [
+   24,
+   54
+  ],
+  "filip-step": [
+   25,
+   54
+  ],
+  "red-front": [
+   26,
+   52
+  ],
+  "red-back": [
+   26,
+   52
+  ],
+  "red-side": [
+   23,
+   52
+  ],
+  "red-step": [
+   23,
+   52
+  ],
+  "oldman-front": [
+   28,
+   52
+  ],
+  "oldman-back": [
+   28,
+   52
+  ],
+  "oldman-side": [
+   23,
+   52
+  ],
+  "oldman-step": [
+   23,
+   52
+  ],
+  "blonde-front": [
+   22,
+   50
+  ],
+  "blonde-back": [
+   24,
+   50
+  ],
+  "blonde-side": [
+   27,
+   50
+  ],
+  "blonde-step": [
+   28,
+   50
+  ],
+  "bagClosed": [
+   44,
+   35
+  ],
+  "bagOpen": [
+   44,
+   55
+  ]
+ }
+}
