@@ -9,6 +9,8 @@ e ogni tanto il telefono squilla da solo.
 
 **Versione ufficio** (un ufficio in pixel art dove si cammina tra le postazioni): https://valico-di-grest.github.io/border-pass-int/ufficio/
 
+**Versione di prova "varco"** (atrio, zona di controllo e ufficio divisi, la valigia da aprire; solo il primo viaggiatore): https://valico-di-grest.github.io/border-pass-int/varco/
+
 Prototipo: il primo giorno, 6 livelli, da soli o in cooperativa online (2–3 giocatori). In italiano e in inglese.
 
 *A co-op investigation game at a 2003 border post, with AI characters you question, check and stamp. Play in Italian or English.*
