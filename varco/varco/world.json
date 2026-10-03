@@ -644,6 +644,56 @@
    54,
    11
   ],
+  "corriere-front": [
+   26,
+   54,
+   12
+  ],
+  "corriere-back": [
+   25,
+   54,
+   12
+  ],
+  "corriere-side": [
+   21,
+   54,
+   10
+  ],
+  "corriere-frontA": [
+   26,
+   54,
+   12
+  ],
+  "corriere-frontB": [
+   26,
+   54,
+   12
+  ],
+  "corriere-backA": [
+   25,
+   54,
+   12
+  ],
+  "corriere-backB": [
+   25,
+   54,
+   12
+  ],
+  "corriere-sideA": [
+   25,
+   54,
+   12
+  ],
+  "corriere-sidePass": [
+   21,
+   54,
+   10
+  ],
+  "corriere-sideB": [
+   26,
+   54,
+   12
+  ],
   "bagClosed": [
    44,
    35,
