@@ -4,7 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, interactive-widget=resizes-content" />
     <title>Posto di Frontiera</title>
-    <script type="module" crossorigin src="./assets/index-i9213Gxu.js"></script>
+    <script>
+      // Se il codice del gioco non arriva, il gioco non parte e resta lo schermo nero. Di solito è una copia vecchia di
+      // questa pagina (in cache fino a 10 minuti dopo un aggiornamento del sito) che chiede file che non ci sono più:
+      // si ricarica una volta, con un indirizzo che nessuna cache ha. Vale solo all'apertura, non durante la partita.
+      (function () {
+        var KEY = 'border-pass/reload';
+        var u = new URL(location.href);
+        if (u.searchParams.has('agg')) {
+          u.searchParams.delete('agg');
+          history.replaceState(history.state, '', u.href);
+        }
+        var fail = function (e) {
+          var el = e.target;
+          if (!el || (el.tagName !== 'SCRIPT' && el.tagName !== 'LINK')) return;
+          try {
+            if (Date.now() - (Number(sessionStorage.getItem(KEY)) || 0) < 60000) return;
+            sessionStorage.setItem(KEY, String(Date.now()));
+          } catch (_) {
+            return;
+          }
+          u.searchParams.set('agg', Date.now().toString(36));
+          location.replace(u.href);
+        };
+        addEventListener('error', fail, true);
+        addEventListener('load', function () {
+          removeEventListener('error', fail, true);
+        });
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/index-CJhJ51Mx.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/i18n-BsmWZ6KM.js">
     <link rel="stylesheet" crossorigin href="./assets/index-BCIHiHsQ.css">
   </head>
