@@ -2,6 +2,29 @@
 <html lang="it">
   <head>
     <meta charset="UTF-8" />
+    <script>
+      // notte (prova 16/10, solo sviluppo): tra la casa e il sogno la pagina si ricarica; chi ricarica lascia un segno e la pagina riparte già
+      // nera dal primo fotogramma (src/casa/notte-url.ts la dissolve quando la scena è pronta). Nelle build per il pubblico il segno non c'è mai.
+      (function () {
+        try {
+          if (sessionStorage.getItem('notte-nero') === '1') {
+            var d = document.createElement('div');
+            d.id = 'notte-nero';
+            d.style.cssText = 'position:fixed;left:0;top:0;right:0;bottom:0;background:#000;z-index:2147483647';
+            // il testo della scena («Ti addormenti…» / «Ti svegli.») resta al centro finché il nero non si dissolve
+            var t = sessionStorage.getItem('notte-nero-testo');
+            if (t) {
+              var x = document.createElement('div');
+              x.id = 'notte-nero-testo';
+              x.style.cssText = 'position:absolute;left:0;right:0;top:46%;text-align:center;color:#e0eadb;font:400 64px/1 "Jersey 10","Pixelify Sans",monospace;letter-spacing:2px';
+              x.textContent = t;
+              d.appendChild(x);
+            }
+            document.documentElement.appendChild(d);
+          }
+        } catch (_) {}
+      })();
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, interactive-widget=resizes-content" />
     <title>Posto di Frontiera</title>
     <script>
@@ -33,9 +56,10 @@
         });
       })();
     </script>
-    <script type="module" crossorigin src="./assets/index-uc5537VS.js"></script>
-    <link rel="modulepreload" crossorigin href="./assets/i18n-Cf1yllxi.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-BD9HahpQ.css">
+    <script type="module" crossorigin src="./assets/index-DrUNWFB-.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/i18n-CTpVtYtG.js">
+    <link rel="modulepreload" crossorigin href="./assets/hooks.module-DjWgBM4k.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-DVNfukjE.css">
   </head>
   <body>
     <div id="app"></div>

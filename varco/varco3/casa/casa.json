@@ -1,0 +1,832 @@
+{
+ "nota": "Generato da D:/gamedev/_tmp/casa/strati/esporta.mjs: non modificare a mano. Coordinate in pixel della mappa (x, y; y verso il basso).",
+ "w": 367,
+ "h": 218,
+ "scala": 3,
+ "base": "base.png",
+ "pavimento": "pavimento.png",
+ "personaggio": {
+  "strip": "../chars/officerM.png",
+  "frame": [
+   240,
+   288
+  ],
+  "piedi": [
+   120,
+   283
+  ],
+  "riduzione": 6
+ },
+ "ingresso": {
+  "x": 56,
+  "y": 114,
+  "dir": "destra"
+ },
+ "porta": {
+  "rect": [
+   40,
+   104,
+   44,
+   119
+  ],
+  "uso": {
+   "tipo": "porta",
+   "nome": "Porta di casa",
+   "vuota": "Dallo spioncino non si vede nessuno."
+  }
+ },
+ "camere": {
+  "camera1": {
+   "rects": [
+    [
+     6,
+     37,
+     78,
+     85
+    ]
+   ],
+   "porta": [
+    50,
+    86,
+    65,
+    90
+   ],
+   "chiusa": {
+    "img": "camere/camera1.png",
+    "x": 6,
+    "y": 37
+   }
+  },
+  "camera2": {
+   "rects": [
+    [
+     84,
+     37,
+     159,
+     85
+    ]
+   ],
+   "porta": [
+    98,
+    86,
+    113,
+    90
+   ],
+   "chiusa": {
+    "img": "camere/camera2.png",
+    "x": 84,
+    "y": 37
+   }
+  },
+  "camera3": {
+   "rects": [
+    [
+     213,
+     139,
+     278,
+     206
+    ]
+   ],
+   "porta": [
+    215,
+    134,
+    230,
+    138
+   ],
+   "chiusa": {
+    "img": "camere/camera3.png",
+    "x": 213,
+    "y": 134
+   }
+  },
+  "camera4": {
+   "rects": [
+    [
+     284,
+     139,
+     358,
+     206
+    ]
+   ],
+   "porta": [
+    288,
+    134,
+    303,
+    138
+   ],
+   "chiusa": {
+    "img": "camere/camera4.png",
+    "x": 284,
+    "y": 134
+   }
+  }
+ },
+ "pezzi": [
+  {
+   "id": "armadio-1",
+   "stanza": "camera1",
+   "img": "pezzi/armadio-1.png",
+   "x": 7,
+   "y": 18,
+   "w": 17,
+   "h": 25,
+   "ombra": {
+    "img": "ombre/armadio-1.png",
+    "x": 7,
+    "y": 39
+   },
+   "base": 42,
+   "ingombro": [
+    7,
+    38,
+    23,
+    42
+   ],
+   "pavimento": false,
+   "parete": false,
+   "upgrade": null,
+   "sostituisce": null,
+   "uso": {
+    "tipo": "testo",
+    "nome": "Armadio",
+    "testi": [
+     "Due divise e un cappotto che sa di naftalina.",
+     "In fondo, una scatola di scarpe vuota."
+    ]
+   }
+  },
+  {
+   "id": "letto-1",
+   "stanza": "camera1",
+   "img": "pezzi/letto-1.png",
+   "x": 60,
+   "y": 36,
+   "w": 19,
+   "h": 34,
+   "ombra": {
+    "img": "ombre/letto-1.png",
+    "x": 60,
+    "y": 70
+   },
+   "base": 69,
+   "ingombro": [
+    60,
+    37,
+    78,
+    69
+   ],
+   "pavimento": false,
+   "parete": false,
+   "upgrade": null,
+   "sostituisce": null,
+   "uso": {
+    "tipo": "letto",
+    "nome": "Letto"
+   }
+  },
+  {
+   "id": "armadio-2",
+   "stanza": "camera2",
+   "img": "pezzi/armadio-2.png",
+   "x": 86,
+   "y": 18,
+   "w": 17,
+   "h": 25,
+   "ombra": {
+    "img": "ombre/armadio-2.png",
+    "x": 86,
+    "y": 39
+   },
+   "base": 42,
+   "ingombro": [
+    86,
+    38,
+    102,
+    42
+   ],
+   "pavimento": false,
+   "parete": false,
+   "upgrade": null,
+   "sostituisce": null,
+   "uso": {
+    "tipo": "testo",
+    "nome": "Armadio",
+    "testi": [
+     "Le camicie della divisa, stirate male.",
+     "Un ombrello rotto che nessuno butta."
+    ]
+   }
+  },
+  {
+   "id": "letto-2",
+   "stanza": "camera2",
+   "img": "pezzi/letto-2.png",
+   "x": 141,
+   "y": 36,
+   "w": 19,
+   "h": 34,
+   "ombra": {
+    "img": "ombre/letto-2.png",
+    "x": 141,
+    "y": 70
+   },
+   "base": 69,
+   "ingombro": [
+    141,
+    37,
+    159,
+    69
+   ],
+   "pavimento": false,
+   "parete": false,
+   "upgrade": null,
+   "sostituisce": null,
+   "uso": {
+    "tipo": "letto",
+    "nome": "Letto"
+   }
+  },
+  {
+   "id": "letto-3",
+   "stanza": "camera3",
+   "img": "pezzi/letto-3.png",
+   "x": 260,
+   "y": 139,
+   "w": 19,
+   "h": 34,
+   "ombra": {
+    "img": "ombre/letto-3.png",
+    "x": 260,
+    "y": 173
+   },
+   "base": 172,
+   "ingombro": [
+    260,
+    139,
+    278,
+    172
+   ],
+   "pavimento": false,
+   "parete": false,
+   "upgrade": null,
+   "sostituisce": null,
+   "uso": {
+    "tipo": "letto",
+    "nome": "Letto"
+   }
+  },
+  {
+   "id": "letto-4",
+   "stanza": "camera4",
+   "img": "pezzi/letto-4.png",
+   "x": 340,
+   "y": 139,
+   "w": 19,
+   "h": 34,
+   "ombra": {
+    "img": "ombre/letto-4.png",
+    "x": 340,
+    "y": 173
+   },
+   "base": 172,
+   "ingombro": [
+    340,
+    139,
+    358,
+    172
+   ],
+   "pavimento": false,
+   "parete": false,
+   "upgrade": null,
+   "sostituisce": null,
+   "uso": {
+    "tipo": "letto",
+    "nome": "Letto"
+   }
+  },
+  {
+   "id": "computer",
+   "stanza": "giorno",
+   "img": "pezzi/computer.png",
+   "x": 224,
+   "y": 30,
+   "w": 24,
+   "h": 27,
+   "ombra": {
+    "img": "ombre/computer.png",
+    "x": 224,
+    "y": 42
+   },
+   "base": 57,
+   "ingombro": [
+    224,
+    37,
+    247,
+    57
+   ],
+   "pavimento": false,
+   "parete": false,
+   "upgrade": null,
+   "sostituisce": null,
+   "uso": {
+    "tipo": "computer",
+    "nome": "Portatile"
+   }
+  },
+  {
+   "id": "mobile-tv",
+   "stanza": "giorno",
+   "img": "pezzi/mobile-tv.png",
+   "x": 304,
+   "y": 26,
+   "w": 26,
+   "h": 19,
+   "ombra": {
+    "img": "ombre/mobile-tv.png",
+    "x": 304,
+    "y": 38
+   },
+   "base": 44,
+   "ingombro": [
+    304,
+    37,
+    329,
+    44
+   ],
+   "pavimento": false,
+   "parete": false,
+   "upgrade": null,
+   "sostituisce": null,
+   "uso": {
+    "tipo": "testo",
+    "nome": "TV",
+    "testi": [
+     "Il telegiornale dell'isola: mare calmo, controlli più severi al varco.",
+     "Una televendita di pentole, a quest’ora."
+    ]
+   }
+  },
+  {
+   "id": "tavolo-pranzo",
+   "stanza": "giorno",
+   "img": "pezzi/tavolo-pranzo.png",
+   "x": 192,
+   "y": 54,
+   "w": 28,
+   "h": 28,
+   "ombra": {
+    "img": "ombre/tavolo-pranzo.png",
+    "x": 192,
+    "y": 63
+   },
+   "base": 81,
+   "ingombro": [
+    192,
+    54,
+    219,
+    81
+   ],
+   "pavimento": false,
+   "parete": false,
+   "upgrade": null,
+   "sostituisce": null,
+   "uso": null
+  },
+  {
+   "id": "tappeto",
+   "stanza": "giorno",
+   "img": "pezzi/tappeto.png",
+   "x": 292,
+   "y": 70,
+   "w": 50,
+   "h": 32,
+   "ombra": null,
+   "base": 101,
+   "ingombro": [
+    292,
+    70,
+    341,
+    101
+   ],
+   "pavimento": true,
+   "parete": false,
+   "upgrade": null,
+   "sostituisce": null,
+   "uso": null
+  },
+  {
+   "id": "divano",
+   "stanza": "giorno",
+   "img": "pezzi/divano.png",
+   "x": 300,
+   "y": 78,
+   "w": 35,
+   "h": 15,
+   "ombra": {
+    "img": "ombre/divano.png",
+    "x": 300,
+    "y": 81
+   },
+   "base": 92,
+   "ingombro": [
+    300,
+    80,
+    334,
+    92
+   ],
+   "pavimento": false,
+   "parete": false,
+   "upgrade": null,
+   "sostituisce": null,
+   "uso": null
+  },
+  {
+   "id": "zerbino",
+   "stanza": "palazzo",
+   "img": "pezzi/zerbino.png",
+   "x": 31,
+   "y": 104,
+   "w": 6,
+   "h": 16,
+   "ombra": null,
+   "base": 119,
+   "ingombro": [
+    31,
+    104,
+    36,
+    119
+   ],
+   "pavimento": true,
+   "parete": false,
+   "upgrade": null,
+   "sostituisce": null,
+   "uso": null
+  },
+  {
+   "id": "piano-cucina",
+   "stanza": "cucina",
+   "img": "pezzi/piano-cucina.png",
+   "x": 6,
+   "y": 139,
+   "w": 12,
+   "h": 62,
+   "ombra": {
+    "img": "ombre/piano-cucina.png",
+    "x": 6,
+    "y": 140
+   },
+   "base": 200,
+   "ingombro": [
+    6,
+    139,
+    17,
+    200
+   ],
+   "pavimento": false,
+   "parete": false,
+   "upgrade": null,
+   "sostituisce": null,
+   "uso": null
+  },
+  {
+   "id": "frigo",
+   "stanza": "cucina",
+   "img": "pezzi/frigo.png",
+   "x": 20,
+   "y": 134,
+   "w": 12,
+   "h": 19,
+   "ombra": {
+    "img": "ombre/frigo.png",
+    "x": 20,
+    "y": 140
+   },
+   "base": 152,
+   "ingombro": [
+    20,
+    139,
+    31,
+    152
+   ],
+   "pavimento": false,
+   "parete": false,
+   "upgrade": null,
+   "sostituisce": null,
+   "uso": {
+    "tipo": "testo",
+    "nome": "Frigo",
+    "testi": [
+     "Latte scaduto, un limone e qualche birra."
+    ]
+   }
+  },
+  {
+   "id": "tavolo-cucina",
+   "stanza": "cucina",
+   "img": "pezzi/tavolo-cucina.png",
+   "x": 41,
+   "y": 155,
+   "w": 35,
+   "h": 27,
+   "ombra": {
+    "img": "ombre/tavolo-cucina.png",
+    "x": 47,
+    "y": 164
+   },
+   "base": 181,
+   "ingombro": [
+    41,
+    155,
+    75,
+    181
+   ],
+   "pavimento": false,
+   "parete": false,
+   "upgrade": null,
+   "sostituisce": null,
+   "uso": null
+  },
+  {
+   "id": "lavandino",
+   "stanza": "bagno",
+   "img": "pezzi/lavandino.png",
+   "x": 116,
+   "y": 140,
+   "w": 11,
+   "h": 12,
+   "ombra": {
+    "img": "ombre/lavandino.png",
+    "x": 116,
+    "y": 140
+   },
+   "base": 151,
+   "ingombro": [
+    116,
+    139,
+    126,
+    151
+   ],
+   "pavimento": false,
+   "parete": false,
+   "upgrade": null,
+   "sostituisce": null,
+   "uso": null
+  },
+  {
+   "id": "wc",
+   "stanza": "bagno",
+   "img": "pezzi/wc.png",
+   "x": 115,
+   "y": 182,
+   "w": 14,
+   "h": 13,
+   "ombra": {
+    "img": "ombre/wc.png",
+    "x": 115,
+    "y": 183
+   },
+   "base": 194,
+   "ingombro": [
+    115,
+    182,
+    128,
+    194
+   ],
+   "pavimento": false,
+   "parete": false,
+   "upgrade": null,
+   "sostituisce": null,
+   "uso": {
+    "tipo": "testo",
+    "nome": "Gabinetto",
+    "testi": [
+     "Meglio non commentare."
+    ],
+    "pipi": {
+     "testo": "Ah, ci voleva."
+    }
+   }
+  },
+  {
+   "id": "doccia",
+   "stanza": "bagno",
+   "img": "pezzi/doccia.png",
+   "x": 186,
+   "y": 170,
+   "w": 22,
+   "h": 37,
+   "ombra": null,
+   "base": 206,
+   "ingombro": [
+    186,
+    184,
+    207,
+    206
+   ],
+   "pavimento": false,
+   "parete": false,
+   "upgrade": null,
+   "sostituisce": null,
+   "uso": null
+  },
+  {
+   "id": "pianta",
+   "stanza": "giorno",
+   "img": "pezzi/pianta.png",
+   "x": 343,
+   "y": 110,
+   "w": 16,
+   "h": 23,
+   "ombra": {
+    "img": "ombre/pianta.png",
+    "x": 346,
+    "y": 125
+   },
+   "base": 132,
+   "ingombro": [
+    346,
+    124,
+    356,
+    132
+   ],
+   "pavimento": false,
+   "parete": false,
+   "upgrade": "pianta",
+   "sostituisce": null,
+   "uso": null
+  },
+  {
+   "id": "quadro",
+   "stanza": "giorno",
+   "img": "pezzi/quadro.png",
+   "x": 336,
+   "y": 12,
+   "w": 18,
+   "h": 14,
+   "ombra": null,
+   "base": 36,
+   "ingombro": [
+    336,
+    12,
+    353,
+    24
+   ],
+   "pavimento": false,
+   "parete": true,
+   "upgrade": "quadro",
+   "sostituisce": null,
+   "uso": null
+  },
+  {
+   "id": "tappeto-nuovo",
+   "stanza": "giorno",
+   "img": "pezzi/tappeto-nuovo.png",
+   "x": 292,
+   "y": 70,
+   "w": 50,
+   "h": 32,
+   "ombra": null,
+   "base": 101,
+   "ingombro": [
+    292,
+    70,
+    341,
+    101
+   ],
+   "pavimento": true,
+   "parete": false,
+   "upgrade": "tappeto-nuovo",
+   "sostituisce": "tappeto",
+   "uso": null
+  },
+  {
+   "id": "libreria",
+   "stanza": "giorno",
+   "img": "pezzi/libreria.png",
+   "x": 166,
+   "y": 19,
+   "w": 13,
+   "h": 24,
+   "ombra": {
+    "img": "ombre/libreria.png",
+    "x": 166,
+    "y": 39
+   },
+   "base": 42,
+   "ingombro": [
+    166,
+    38,
+    178,
+    42
+   ],
+   "pavimento": false,
+   "parete": false,
+   "upgrade": "libreria",
+   "sostituisce": null,
+   "uso": null
+  },
+  {
+   "id": "poltrona",
+   "stanza": "giorno",
+   "img": "pezzi/poltrona.png",
+   "x": 277,
+   "y": 80,
+   "w": 14,
+   "h": 13,
+   "ombra": {
+    "img": "ombre/poltrona.png",
+    "x": 277,
+    "y": 83
+   },
+   "base": 92,
+   "ingombro": [
+    277,
+    82,
+    290,
+    92
+   ],
+   "pavimento": false,
+   "parete": false,
+   "upgrade": "poltrona",
+   "sostituisce": null,
+   "uso": null
+  },
+  {
+   "id": "tv-grande",
+   "stanza": "giorno",
+   "img": "pezzi/tv-grande.png",
+   "x": 301,
+   "y": 21,
+   "w": 32,
+   "h": 24,
+   "ombra": {
+    "img": "ombre/tv-grande.png",
+    "x": 301,
+    "y": 38
+   },
+   "base": 44,
+   "ingombro": [
+    301,
+    37,
+    332,
+    44
+   ],
+   "pavimento": false,
+   "parete": false,
+   "upgrade": "tv-grande",
+   "sostituisce": "mobile-tv",
+   "uso": {
+    "tipo": "testo",
+    "nome": "TV",
+    "testi": [
+     "Ora il telegiornale si vede anche dal corridoio.",
+     "Una televendita di pentole, ma enorme."
+    ]
+   }
+  }
+ ],
+ "negozio": [
+  {
+   "id": "pianta",
+   "nome": "Ficus da appartamento",
+   "prezzo": 250,
+   "testo": "Resiste a tutto, anche a voi.",
+   "icona": "negozio/pianta.png"
+  },
+  {
+   "id": "quadro",
+   "nome": "Stampa incorniciata",
+   "prezzo": 400,
+   "testo": "Un mare dipinto per la parete vuota.",
+   "icona": "negozio/quadro.png"
+  },
+  {
+   "id": "tappeto-nuovo",
+   "nome": "Tappeto kilim",
+   "prezzo": 600,
+   "testo": "Copre la macchia sotto il divano.",
+   "icona": "negozio/tappeto-nuovo.png"
+  },
+  {
+   "id": "libreria",
+   "nome": "Libreria bianca",
+   "prezzo": 800,
+   "testo": "Per i libri del vecchio inquilino.",
+   "icona": "negozio/libreria.png"
+  },
+  {
+   "id": "poltrona",
+   "nome": "Poltrona in pelle",
+   "prezzo": 950,
+   "testo": "Il posto buono davanti alla TV.",
+   "icona": "negozio/poltrona.png"
+  },
+  {
+   "id": "tv-grande",
+   "nome": "Televisore grande",
+   "prezzo": 1500,
+   "testo": "Il telegiornale si vede anche dal corridoio.",
+   "icona": "negozio/tv-grande.png"
+  }
+ ]
+}
