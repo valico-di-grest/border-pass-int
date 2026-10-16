@@ -8,15 +8,18 @@
       (function () {
         try {
           if (sessionStorage.getItem('notte-nero') === '1') {
+            // lo stesso nero di passaggio di src/casa/notte-url.ts (neroDiPassaggio): tenere allineati
             var d = document.createElement('div');
             d.id = 'notte-nero';
-            d.style.cssText = 'position:fixed;left:0;top:0;right:0;bottom:0;background:#000;z-index:2147483647';
-            // il testo della scena («Ti addormenti…» / «Ti svegli.») resta al centro finché il nero non si dissolve
+            d.style.cssText = 'position:fixed;left:0;top:0;right:0;bottom:0;background:#000;z-index:2147483647;display:flex;flex-direction:column;align-items:center;justify-content:center';
+            // il testo della scena («Ti addormenti…» / «Ti svegli.») al centro, alla grandezza delle scritte del gioco; trasparente finché il
+            // carattere del gioco non è caricato (lo fa riapparire dissolviNero)
             var t = sessionStorage.getItem('notte-nero-testo');
             if (t) {
+              var s = Math.min(innerWidth / 1600, innerHeight / 940);
               var x = document.createElement('div');
               x.id = 'notte-nero-testo';
-              x.style.cssText = 'position:absolute;left:0;right:0;top:46%;text-align:center;color:#e0eadb;font:400 64px/1 "Jersey 10","Pixelify Sans",monospace;letter-spacing:2px';
+              x.style.cssText = 'color:#e0eadb;font:400 ' + Math.round(64 * s) + 'px/1 "Jersey 10","Pixelify Sans",monospace;letter-spacing:' + (2 * s).toFixed(1) + 'px;transition:opacity .4s ease;opacity:0';
               x.textContent = t;
               d.appendChild(x);
             }
@@ -56,10 +59,10 @@
         });
       })();
     </script>
-    <script type="module" crossorigin src="./assets/index-DP-XiUVf.js"></script>
+    <script type="module" crossorigin src="./assets/index-Eu4OYxrw.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/i18n-CTpVtYtG.js">
     <link rel="modulepreload" crossorigin href="./assets/hooks.module-DjWgBM4k.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-D9NUtOpr.css">
+    <link rel="stylesheet" crossorigin href="./assets/index-cLPcnYX3.css">
   </head>
   <body>
     <div id="app"></div>
