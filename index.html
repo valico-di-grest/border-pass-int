@@ -2,10 +2,76 @@
 <html lang="it">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      // notte (prova 16/10, solo sviluppo): tra la casa e il sogno la pagina si ricarica; chi ricarica lascia un segno e la pagina riparte già
+      // nera dal primo fotogramma (src/casa/notte-url.ts la dissolve quando la scena è pronta). Nelle build per il pubblico il segno non c'è mai.
+      (function () {
+        try {
+          if (sessionStorage.getItem('notte-nero') === '1') {
+            // lo stesso nero di passaggio di src/casa/notte-url.ts (neroDiPassaggio): tenere allineati
+            var d = document.createElement('div');
+            d.id = 'notte-nero';
+            d.style.cssText = 'position:fixed;left:0;top:0;right:0;bottom:0;background:#000;z-index:2147483647;display:flex;flex-direction:column;align-items:center;justify-content:center';
+            // il testo della scena («Ti addormenti…» / «Ti svegli.») al centro, alla grandezza delle scritte del gioco; trasparente finché il
+            // carattere del gioco non è caricato (lo fa riapparire dissolviNero)
+            var t = sessionStorage.getItem('notte-nero-testo');
+            if (t) {
+              var s = Math.min(innerWidth / 1600, innerHeight / 940);
+              var x = document.createElement('div');
+              x.id = 'notte-nero-testo';
+              x.style.cssText = 'color:#e0eadb;font:400 ' + Math.round(64 * s) + 'px/1 "Jersey 10","Pixelify Sans",monospace;letter-spacing:' + (2 * s).toFixed(1) + 'px;transition:opacity .4s ease;opacity:0';
+              x.textContent = t;
+              d.appendChild(x);
+            }
+            document.documentElement.appendChild(d);
+          }
+        } catch (_) {}
+      })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, interactive-widget=resizes-content" />
     <title>Posto di Frontiera</title>
-    <script type="module" crossorigin src="./assets/index-Cg7dk6D_.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-D3U5JcLW.css">
+    <script>
+      // Se il codice del gioco non arriva, il gioco non parte e resta lo schermo nero. Di solito è una copia vecchia di
+      // questa pagina (in cache fino a 10 minuti dopo un aggiornamento del sito) che chiede file che non ci sono più:
+      // si ricarica una volta, con un indirizzo che nessuna cache ha. Vale solo all'apertura, non durante la partita.
+      (function () {
+        var KEY = 'border-pass/reload';
+        var u = new URL(location.href);
+        if (u.searchParams.has('agg')) {
+          u.searchParams.delete('agg');
+          history.replaceState(history.state, '', u.href);
+        }
+        var fail = function (e) {
+          var el = e.target;
+          if (!el || (el.tagName !== 'SCRIPT' && el.tagName !== 'LINK')) return;
+          try {
+            if (Date.now() - (Number(sessionStorage.getItem(KEY)) || 0) < 60000) return;
+            sessionStorage.setItem(KEY, String(Date.now()));
+          } catch (_) {
+            return;
+          }
+          u.searchParams.set('agg', Date.now().toString(36));
+          location.replace(u.href);
+        };
+        addEventListener('error', fail, true);
+        addEventListener('load', function () {
+          removeEventListener('error', fail, true);
+        });
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/index-C_hC5Q8F.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/i18n-5FFQkn6S.js">
+    <link rel="modulepreload" crossorigin href="./assets/hooks.module-DjWgBM4k.js">
+    <link rel="modulepreload" crossorigin href="./assets/session-DVO7EHPN.js">
+    <link rel="modulepreload" crossorigin href="./assets/sfx-NPHs2U3x.js">
+    <link rel="modulepreload" crossorigin href="./assets/omen-FHDOulp5.js">
+    <link rel="modulepreload" crossorigin href="./assets/mobile-MzbIXzaX.js">
+    <link rel="modulepreload" crossorigin href="./assets/jsxRuntime.module-CEX_hpWq.js">
+    <link rel="modulepreload" crossorigin href="./assets/notte-url-BkpwXVqQ.js">
+    <link rel="modulepreload" crossorigin href="./assets/world-IdsGun75.js">
+    <link rel="stylesheet" crossorigin href="./assets/omen-Vl39nOL8.css">
+    <link rel="stylesheet" crossorigin href="./assets/notte-url-DNSe6Jd1.css">
+    <link rel="stylesheet" crossorigin href="./assets/index-CFQGDwPX.css">
   </head>
   <body>
     <div id="app"></div>

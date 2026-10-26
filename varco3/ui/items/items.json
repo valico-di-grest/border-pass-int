@@ -1,0 +1,166 @@
+{
+ "note": "Oggetti del giorno 1 di Caldera nei colori dello stile 6 (scripts/varco-ai/stile6-items.mjs): stessa misura in pixel di public/varco/ui/items/. cash.png è pixel art vera (08/10: le banconote nei colori del gioco, la prova 3 con la palma, 70×55 ×8; cashPouch con le stesse banconote); table e table-sarti sono in ../.",
+ "names": [
+  "agenda",
+  "bills",
+  "blocks",
+  "board",
+  "card-agency",
+  "card-sarti",
+  "cash",
+  "cashPouch",
+  "contract",
+  "flipflops",
+  "gymCard",
+  "hoodie",
+  "keys",
+  "laptop",
+  "leggings",
+  "linenShirt",
+  "note",
+  "note-number",
+  "photo-class",
+  "seaJar",
+  "shifts",
+  "sneakers",
+  "staffShirt",
+  "toiletry",
+  "towel",
+  "tshirts",
+  "waveBook",
+  "wax",
+  "wetsuit",
+  "whistle"
+ ],
+ "sizes": {
+  "photo-class": [
+   84,
+   58
+  ],
+  "card-sarti": [
+   58,
+   36
+  ],
+  "card-agency": [
+   58,
+   36
+  ],
+  "contract": [
+   56,
+   76
+  ],
+  "note-number": [
+   56,
+   36
+  ],
+  "seaJar": [
+   26,
+   36
+  ],
+  "shifts": [
+   38,
+   34
+  ],
+  "whistle": [
+   54,
+   34
+  ],
+  "staffShirt": [
+   82,
+   70
+  ],
+  "sneakers": [
+   32,
+   34
+  ],
+  "hoodie": [
+   84,
+   80
+  ],
+  "leggings": [
+   92,
+   76
+  ],
+  "bills": [
+   36,
+   34
+  ],
+  "gymCard": [
+   34,
+   20
+  ],
+  "keys": [
+   32,
+   28
+  ],
+  "laptop": [
+   74,
+   44
+  ],
+  "towel": [
+   34,
+   24
+  ],
+  "linenShirt": [
+   74,
+   70
+  ],
+  "note": [
+   26,
+   32
+  ],
+  "waveBook": [
+   30,
+   42
+  ],
+  "wax": [
+   32,
+   28
+  ],
+  "flipflops": [
+   36,
+   38
+  ],
+  "wetsuit": [
+   76,
+   70
+  ],
+  "tshirts": [
+   114,
+   80
+  ],
+  "board": [
+   62,
+   234
+  ],
+  "blocks": [
+   42,
+   30
+  ],
+  "cashPouch": [
+   72,
+   68
+  ],
+  "agenda": [
+   30,
+   42
+  ],
+  "toiletry": [
+   38,
+   22
+  ],
+  "cash": [
+   560,
+   440
+  ],
+  "table": [
+   490,
+   272
+  ],
+  "table-sarti": [
+   490,
+   272
+  ]
+ },
+ "strength": {}
+}

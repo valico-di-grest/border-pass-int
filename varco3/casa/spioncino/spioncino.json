@@ -1,0 +1,21 @@
+{
+ "w": 299,
+ "h": 168,
+ "lente": {
+  "cx": 148,
+  "cy": 63,
+  "r": 44
+ },
+ "visitatore": {
+  "x": 148,
+  "y": 79,
+  "scala": 0.68
+ },
+ "chat": {
+  "x0": 8,
+  "y0": 126,
+  "x1": 240,
+  "y1": 164
+ },
+ "nota": "lente = cerchio del vetro in pixel veri (indici di pixel, trasparente se (x-cx)^2+(y-cy)^2<=r^2; bbox (cx-r,cy-r), lato 2r+1). corridoio.png e vetro.png hanno quel lato e vanno posti in (cx-r,cy-r). visitatore: centro della tela 130x141 del volto, scala = pixel veri per pixel del volto (0.8, il volto 'densita 2' ingrandito: sembra a un passo dalla porta); il busto va ritagliato dal cerchio del vetro e scurito (circa 55% di luminosita) prima del vetro. Ordine: corridoio, visitatore, vetro, porta. chat: fascia calma sotto l'anello (x 8-240, y 126-164, 3 righe circa); alternativa, colonna sinistra x 3-85 tutta l'altezza. La placca della serratura sta in basso a destra (x 249-286, y 98-160). Il vetro e' una finestra alpha 0 in porta.png."
+}
