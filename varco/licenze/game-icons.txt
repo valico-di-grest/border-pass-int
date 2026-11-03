@@ -1,0 +1,7 @@
+Icone della pianta delle postazioni (ufficio, bancone, computer, telefono): game-icons.net
+Licenza: Creative Commons Attribution 3.0 Unported (CC BY 3.0), https://creativecommons.org/licenses/by/3.0/
+- "Exit door" di Delapouite, https://game-icons.net/1x1/delapouite/exit-door.html
+- "Passport" di Delapouite, https://game-icons.net/1x1/delapouite/passport.html
+- "Pc" di Skoll, https://game-icons.net/1x1/skoll/pc.html
+- "Rotary phone" di Caro Asercion, https://game-icons.net/1x1/caro-asercion/rotary-phone.html
+Le icone sono usate senza modifiche, a un colore, come tracciati SVG (src/ui/varco3/iconeGioco.ts).
