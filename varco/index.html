@@ -7,14 +7,16 @@
       // nera dal primo fotogramma (src/casa/notte-url.ts la dissolve quando la scena è pronta). Nelle build per il pubblico il segno non c'è mai.
       (function () {
         try {
-          if (sessionStorage.getItem('notte-nero') === '1') {
+          // (10/11/2026) il segno sta anche nell'indirizzo (?ricarica=notte) e il testo anche in localStorage: dentro itch la sessionStorage a volte
+          // non sopravvive alla ricarica (src/casa/notte-url.ts ricaricaConSogno)
+          if (sessionStorage.getItem('notte-nero') === '1' || /[?&]ricarica=/.test(location.search)) {
             // lo stesso nero di passaggio di src/casa/notte-url.ts (neroDiPassaggio): tenere allineati
             var d = document.createElement('div');
             d.id = 'notte-nero';
             d.style.cssText = 'position:fixed;left:0;top:0;right:0;bottom:0;background:#000;z-index:2147483647;display:flex;flex-direction:column;align-items:center;justify-content:center';
             // il testo della scena («Ti addormenti…» / «Ti svegli.») al centro, alla grandezza delle scritte del gioco; trasparente finché il
             // carattere del gioco non è caricato (lo fa riapparire dissolviNero)
-            var t = sessionStorage.getItem('notte-nero-testo');
+            var t = sessionStorage.getItem('notte-nero-testo') || localStorage.getItem('notte-nero-testo');
             if (t) {
               var s = Math.min(innerWidth / 1600, innerHeight / 940);
               var x = document.createElement('div');
@@ -59,16 +61,16 @@
         });
       })();
     </script>
-    <script type="module" crossorigin src="./assets/index-CivdoVo-.js"></script>
+    <script type="module" crossorigin src="./assets/index-BVROGg5r.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/nomi-BtHFRCt9.js">
-    <link rel="modulepreload" crossorigin href="./assets/i18n-7nS0p5f5.js">
+    <link rel="modulepreload" crossorigin href="./assets/i18n-Cbv_Aeyr.js">
     <link rel="modulepreload" crossorigin href="./assets/hooks.module-DjWgBM4k.js">
-    <link rel="modulepreload" crossorigin href="./assets/world-CT0dvZ4-.js">
-    <link rel="modulepreload" crossorigin href="./assets/mobile-UG8ZaaDP.js">
-    <link rel="modulepreload" crossorigin href="./assets/sfx-Cr2_rcqL.js">
-    <link rel="modulepreload" crossorigin href="./assets/omen-DVgjMVKm.js">
+    <link rel="modulepreload" crossorigin href="./assets/world-CpGumepR.js">
+    <link rel="modulepreload" crossorigin href="./assets/mobile-DfkrDlXy.js">
+    <link rel="modulepreload" crossorigin href="./assets/sfx-BlK-TD2I.js">
+    <link rel="modulepreload" crossorigin href="./assets/omen-QpnoNyu0.js">
     <link rel="modulepreload" crossorigin href="./assets/jsxRuntime.module-CEX_hpWq.js">
-    <link rel="modulepreload" crossorigin href="./assets/notte-url-BUWyr0Kc.js">
+    <link rel="modulepreload" crossorigin href="./assets/notte-url-Bwt4cEon.js">
     <link rel="stylesheet" crossorigin href="./assets/omen-CwBAaaJT.css">
     <link rel="stylesheet" crossorigin href="./assets/notte-url-DYzzDSQi.css">
     <link rel="stylesheet" crossorigin href="./assets/index-BFZmZixd.css">
