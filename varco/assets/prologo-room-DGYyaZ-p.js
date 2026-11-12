@@ -1,0 +1,1 @@
+import{a as e,c as t,d as n,i as r,l as i,n as a,o,r as s,s as c,t as l,u}from"./prologo-room-CG_VbwN_.js";export{l as INGRESSO,a as INGRESSO_FINE,s as LAYOUT,r as TAGS,e as cameraDebug,o as createOfficeScene,c as preload,t as setStanza,i as spotBoxes,u as stanza,n as uominiAl};
